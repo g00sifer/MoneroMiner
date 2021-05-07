@@ -1,0 +1,2 @@
+# MoneroMiner
+Personal script
