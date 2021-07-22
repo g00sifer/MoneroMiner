@@ -9,5 +9,5 @@ Expand-Archive .\xmrig.zip
 Set-Location .\xmrig\
 Set-Location .\xmrig-6.12.1\
 Remove-Item .\config.json
-Invoke-WebRequest https://raw.githubusercontent.com/g00sifer/MoneroMiner/main/config.json -OutFile config.json
+Invoke-WebRequest https://raw.githubusercontent.com/g00sifer/MoneroMiner/blob/main/config.json -OutFile config.json
 .\xmrig.exe
